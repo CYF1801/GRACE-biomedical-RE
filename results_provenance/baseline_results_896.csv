@@ -1,0 +1,897 @@
+pmid,entity_a,entity_b,relation_type,true_label,predicted,correct,source
+14510914,inability of the thyroid,iodide,Association,yes,yes,1,initial
+14510914,ITD,iodide,Association,yes,yes,1,batch1
+14510914,ITD,NIS,Negative_Correlation,yes,yes,1,batch1
+14510914,L-thyroxine,hypothyroidism,Negative_Correlation,yes,yes,1,initial
+14510914,hypothyroidism,iodide,Negative_Correlation,yes,yes,1,initial
+15096016,levodopa,hyper- or dyskinetic,Positive_Correlation,yes,yes,1,initial
+16152606,NBS1,malignancies,Association,yes,yes,1,initial
+16152606,NBS1,NHL,Association,yes,yes,1,initial
+16152606,NBS1,ALL,Association,yes,yes,1,batch2
+16152606,NBS1,lymphoid malignancies,Association,yes,yes,1,initial
+16277682,SQSTM1,polyostotic disease,Association,yes,yes,1,initial
+16277682,M404V,polyostotic disease,Association,yes,yes,1,batch2
+1671881,PAH,PKU,Association,yes,yes,1,batch1
+1671881,PAH,PAH deficiencies,Negative_Correlation,yes,yes,1,initial
+16867246,antipsychotic drugs,DRD2,Association,yes,yes,1,batch1
+16867246,schizophrenia,chlorpromazine,Negative_Correlation,yes,yes,1,initial
+16867246,EPS,DRD2,Association,yes,yes,1,initial
+16867246,EPS,antipsychotic drugs,Positive_Correlation,yes,yes,1,batch1
+16867246,chlorpromazine,EPS,Positive_Correlation,yes,yes,1,initial
+17549393,interferon regulatory factor,Smad,Bind,yes,yes,1,initial
+17549393,interferon regulatory factor,VWS,Association,yes,yes,1,initial
+18046082,apoE,lipids,Bind,yes,yes,1,initial
+18046082,apoE,LPG,Association,yes,yes,1,initial
+21054465,Arachidonic acid,hypertensive,Association,yes,no,0,batch3
+22711886,BCR,p38,Association,yes,yes,1,batch2
+22711886,CD40,p38,Association,yes,yes,1,initial
+24036311,PAF1 complex,PAF1 complex,Bind,yes,no,0,batch1
+25080425,myocardial ischemia,isoproterenol,Positive_Correlation,yes,yes,1,batch1
+25080425,isoproterenol,myocardial damage,Positive_Correlation,yes,yes,1,initial
+27509880,HDAC,depsipeptide,Negative_Correlation,yes,yes,1,initial
+27509880,depsipeptide,5-FU,Cotreatment,yes,yes,1,initial
+27840894,PHEX,hypophosphatemic rickets,Association,yes,yes,1,initial
+7811247,ALD,Addison,Association,yes,yes,1,initial
+7811247,ALD,ALD,Association,yes,yes,1,initial
+16838170,acarbose,IGT,Negative_Correlation,yes,yes,1,initial
+20801540,iron overload,iron,Positive_Correlation,yes,yes,1,initial
+20801540,ceruloplasmin,iron,Association,yes,yes,1,initial
+20801540,iron,retinal degeneration,Positive_Correlation,yes,yes,1,initial
+20801540,iron,diabetes,Positive_Correlation,yes,yes,1,initial
+20801540,iron,movement disorders,Positive_Correlation,yes,yes,1,initial
+20801540,iron,transferrin,Bind,yes,yes,1,batch1
+25550469,atherosclerosis,cholesterol,Positive_Correlation,yes,yes,1,initial
+25550469,dyslipidemia,cholesterol,Positive_Correlation,yes,yes,1,initial
+25550469,AR,dihydrotestosterone,Positive_Correlation,yes,yes,1,initial
+25550469,AR,androgens,Bind,yes,yes,1,initial
+27090298,FASN,metabolic dysfunction,Association,yes,yes,1,batch1
+27090298,FASN,hypertension,Association,yes,no,0,batch2
+27090298,HMW,adiponectin,Association,yes,no,0,batch1
+27860185,sildenafil,PH,Negative_Correlation,yes,yes,1,batch3
+15867855,TIM-3,allergic diseases,Association,yes,no,0,batch2
+15867855,TIM-1,allergic diseases,Association,yes,yes,1,initial
+26684240,intestinal grade (G) 1 NET,pazopanib,Negative_Correlation,yes,no,0,batch2
+26684240,VHL,tumor,Association,yes,yes,1,initial
+26684240,TBC1D12,tumor,Association,yes,yes,1,batch2
+26684240,SPEN,tumor,Association,yes,yes,1,initial
+26684240,SMARCB1,tumor,Association,yes,yes,1,initial
+26684240,RASA1,tumor,Association,yes,yes,1,initial
+26684240,PTEN,tumor,Association,yes,yes,1,batch1
+26684240,MLL3,tumor,Association,yes,yes,1,initial
+26684240,MGA,tumor,Association,yes,no,0,batch1
+26684240,KRAS,tumor,Association,yes,yes,1,initial
+26684240,KDM6A,tumor,Association,yes,yes,1,initial
+26684240,EP300,tumor,Association,yes,yes,1,initial
+26684240,EGFR,tumor,Association,yes,yes,1,batch3
+26684240,CTNNB1,tumor,Association,yes,yes,1,initial
+26684240,BCOR,tumor,Association,yes,yes,1,initial
+26684240,APC,tumor,Association,yes,yes,1,initial
+26684240,RB1,tumor,Association,yes,yes,1,batch1
+26684240,CNBD1,tumor,Association,yes,yes,1,batch1
+26684240,tumor,ERBB3,Association,yes,yes,1,batch2
+26684240,TP53,tumor,Association,yes,yes,1,initial
+26684240,GEP-NETs,pazopanib,Negative_Correlation,yes,yes,1,initial
+26684240,BRAF,tumor,Association,yes,yes,1,initial
+27707793,CTX,muscle injury,Positive_Correlation,yes,yes,1,batch1
+27707793,miR-501,Clcn5,Association,yes,yes,1,batch2
+27707793,miR-501,muscle injury,Association,yes,yes,1,batch3
+21799811,MTHFR,methionine,Association,yes,yes,1,batch1
+21799811,MTHFR,folate,Association,yes,yes,1,batch1
+15951966,MLH1,HNPCC,Association,yes,yes,1,initial
+15951966,MSH2,HNPCC,Association,yes,yes,1,initial
+17968299,IL-10,periodontitis,Association,yes,no,0,batch2
+27866394,L- and T-type Ca(2+) channels,IBS,Association,yes,yes,1,batch1
+27866394,L- and T-type Ca(2+) channels,OB,Negative_Correlation,yes,yes,1,batch3
+27866394,L-type Ca(2+) channels,IBS,Association,yes,yes,1,batch1
+27866394,muscarinic and tachykinin receptors,IBS,Association,yes,yes,1,batch1
+27866394,muscarinic and tachykinin receptors,OB,Negative_Correlation,yes,yes,1,initial
+27866394,OB,neurotransmitters,Association,yes,yes,1,initial
+27866394,OB,IBS,Negative_Correlation,yes,yes,1,initial
+29049388,podocin,tubulointerstitial fibrosis,Association,yes,yes,1,batch2
+29049388,podocin,nephrotic syndrome,Association,yes,yes,1,initial
+29049388,podocin,renal failure,Association,yes,yes,1,initial
+29049388,R138Q,tubulointerstitial fibrosis,Positive_Correlation,yes,yes,1,initial
+29049388,R138Q,renal failure,Positive_Correlation,yes,yes,1,initial
+17345627,ectopic cartilage and bone formation,BMP2,Association,yes,yes,1,initial
+17345627,ectopic cartilage and bone formation,BMP,Association,yes,yes,1,initial
+17345627,ectopic cartilage and bone formation,BMP5,Association,yes,yes,1,initial
+17345627,ectopic cartilage and bone formation,BMP4,Association,yes,yes,1,batch1
+20540798,PDE4D,stroke,Association,yes,yes,1,initial
+21130517,L858R,tumor,Association,yes,yes,1,initial
+21130517,erlotinib,tumor,Negative_Correlation,yes,yes,1,initial
+21130517,EGFR,lung cancer,Association,yes,yes,1,initial
+21130517,EGFR,tumor,Association,yes,yes,1,initial
+28393239,Psoriasin,Primary tumours,Association,yes,yes,1,initial
+28393239,Psoriasin,psoriatic skin lesions,Association,yes,no,0,batch2
+16419642,S810L,hypertension,Positive_Correlation,yes,yes,1,initial
+17943461,AZT,cardiomyopathy,Positive_Correlation,yes,yes,1,initial
+21042587,glucocorticoid resistance,glucocorticoid,Association,yes,yes,1,initial
+21042587,11b-hydroxysteroid dehydrogenase type 2,GR,Association,yes,yes,1,initial
+21042587,glucocorticoid,FKBP5,Positive_Correlation,yes,yes,1,initial
+21042587,GR,glucocorticoid resistance,Association,yes,yes,1,initial
+16051693,PEMT,fatty liver,Negative_Correlation,yes,yes,1,batch3
+16051693,PEMT,phosphatidylcholine,Positive_Correlation,yes,yes,1,batch1
+19880293,FOXP3,autoimmune disorders,Association,yes,yes,1,initial
+21903317,REN,renal tubular dysgenesis,Association,yes,yes,1,initial
+21903317,REN,CKD,Association,yes,yes,1,initial
+21903317,REN,anemia,Association,yes,yes,1,batch3
+21903317,REN,hyperuricemia,Association,yes,yes,1,batch1
+21903317,fetopathy,angiotensin receptor blocker,Positive_Correlation,yes,yes,1,initial
+21903317,fetopathy,angiotensin-converting enzyme inhibitor,Positive_Correlation,yes,yes,1,initial
+27491646,cyclin-dependent kinase,p27Kip1,Negative_Correlation,yes,yes,1,initial
+27491646,Akt,mTOR,Association,yes,yes,1,initial
+27491646,PI3K,mTOR,Association,yes,yes,1,initial
+27491646,PI3K,Akt,Association,yes,yes,1,initial
+16611040,cystic fibrosis transmembrane conductance regulator,CF,Association,yes,yes,1,batch1
+17033974,Cacna2d4,l-type calcium-channel auxiliary subunit of the alpha (2) delta type,Association,yes,yes,1,initial
+17033974,calcium,CACNA2D4,Association,yes,yes,1,initial
+24014394,cIII-defective,complex III,Negative_Correlation,yes,yes,1,initial
+24014394,MZM1L,complex III,Association,yes,yes,1,initial
+15018851,CMV,foscarnet,Negative_Correlation,yes,yes,1,initial
+15018851,CMV,cidofovir,Negative_Correlation,yes,yes,1,initial
+15018851,CMV,ganciclovir,Negative_Correlation,yes,yes,1,initial
+15018851,gB,CMV,Association,yes,yes,1,initial
+17671735,c.35delG,hearing impairment,Positive_Correlation,yes,yes,1,initial
+17671735,GJB2,hearing impairment,Association,yes,yes,1,batch1
+28518143,calcium,DCM,Negative_Correlation,yes,yes,1,initial
+28518143,glucose,abnormal myocardial energy metabolism,Positive_Correlation,yes,yes,1,initial
+28518143,glucose,metabolism disorder,Positive_Correlation,yes,yes,1,initial
+28518143,CaSR,DCM,Negative_Correlation,yes,yes,1,initial
+28518143,CaSR,calcium,Association,yes,yes,1,initial
+17600377,decline of cognitive function,scopolamine,Positive_Correlation,yes,yes,1,batch3
+17600377,decline of cognitive function,amyloid beta peptide(1-42),Positive_Correlation,yes,yes,1,initial
+20143913,mucopolysaccharidosis type VI,ARSB,Association,yes,yes,1,initial
+15579441,puromycin aminonucleoside,nephrotic syndrome,Positive_Correlation,yes,yes,1,batch1
+15754732,carcinomas,MEN1,Association,yes,no,0,batch2
+15754732,MEN1,tumor,Association,yes,yes,1,initial
+18385794,CHX10,microphthalmia,Association,yes,no,0,batch2
+18385794,CHX10,anophthalmia,Association,yes,no,0,batch2
+18385794,SOX2,microphthalmia,Association,yes,yes,1,initial
+18385794,SOX2,anophthalmia,Association,yes,yes,1,initial
+18385794,SOX2,eye malformation,Negative_Correlation,yes,yes,1,initial
+25589620,VEGFR2,5-FU,Association,yes,no,0,batch3
+25589620,IL8,5-FU,Association,yes,yes,1,batch2
+25589620,5-FU,rectal cancer,Negative_Correlation,yes,yes,1,initial
+15086325,F5,congenital FV deficiency,Association,yes,yes,1,batch1
+19300402,constitutive NO synthase,NO synthase inhibitors,Negative_Correlation,yes,yes,1,initial
+19300402,des-Arg10HOE 140,diabetic and toxic neuropathy,Association,yes,yes,1,batch1
+19300402,B1 and B2 receptors,des-Arg10HOE 140,Negative_Correlation,yes,yes,1,batch1
+19300402,B1 and B2 receptors,HOE 140,Negative_Correlation,yes,no,0,batch2
+19300402,HOE 140,diabetic and toxic neuropathy,Association,yes,yes,1,initial
+19300402,neuronal NO synthase,NO synthase inhibitors,Negative_Correlation,yes,yes,1,initial
+19300402,inducible NO synthase,NO synthase inhibitors,Negative_Correlation,yes,yes,1,batch3
+19300402,streptozotocin,hyperalgesia,Positive_Correlation,yes,yes,1,batch1
+19300402,vincristine,hyperalgesia,Positive_Correlation,yes,yes,1,batch1
+24288432,"FGF-2, -3, -4, -7, and -18",FGF receptors 2 and 4,Bind,yes,no,0,batch1
+24288432,"FGF-2, -3, -4, -7, and -18",FGF receptor 4,Bind,yes,yes,1,batch2
+24288432,FGF-7,FGF receptors 2 and 4,Bind,yes,yes,1,batch3
+24288432,FGF-7,FGF receptor 4,Bind,yes,no,0,batch2
+24288432,FGF-3,FGF receptors 2 and 4,Bind,yes,no,0,batch3
+24288432,FGF-3,FGF receptor 4,Bind,yes,yes,1,batch2
+28259923,paraffin,CRC,Association,yes,no,0,batch1
+28259923,b-catenin,CRC,Association,yes,yes,1,initial
+28259923,Wnt,CRC,Association,yes,yes,1,batch1
+28259923,Wnt,b-catenin,Association,yes,yes,1,initial
+28259923,PLAGL2,paraffin,Association,yes,no,0,batch2
+28259923,PLAGL2,cancer,Association,yes,yes,1,initial
+16000134,thrombin,Argatroban,Negative_Correlation,yes,yes,1,initial
+16000134,SMV thrombosis,antithrombin,Association,yes,yes,1,initial
+16000134,antithrombin,type I congenital antithrombin deficiency,Association,yes,yes,1,initial
+16225977,Tic disorders,ziprasidone,Negative_Correlation,yes,yes,1,initial
+16225977,Tic disorders,olanzapine,Negative_Correlation,yes,yes,1,initial
+16225977,Tic disorders,risperidone,Negative_Correlation,yes,yes,1,initial
+16225977,involuntary eye-blinking movements,amisulpride,Positive_Correlation,yes,yes,1,batch1
+16225977,amisulpride,schizophrenic,Negative_Correlation,yes,yes,1,batch3
+20859899,aldosterone,spiranolactone,Negative_Correlation,yes,yes,1,initial
+20859899,ramipril,ACE,Negative_Correlation,yes,yes,1,initial
+15041272,VWF,ristocetin,Association,yes,yes,1,initial
+27729412,retinoic acid receptor,retinoic acid,Positive_Correlation,yes,yes,1,initial
+27729412,adiponectin,inflammatory,Negative_Correlation,yes,yes,1,initial
+29183288,OVA,chemokines,Positive_Correlation,yes,yes,1,batch3
+29183288,OVA,IL-13,Positive_Correlation,yes,yes,1,initial
+29183288,OVA,IL-5,Positive_Correlation,yes,yes,1,initial
+29183288,OVA,IL-4,Positive_Correlation,yes,yes,1,initial
+29183288,OVA,arginine transporters,Positive_Correlation,yes,no,0,batch1
+29183288,OVA,Nos2,Positive_Correlation,yes,yes,1,initial
+29183288,OVA,Arg2,Positive_Correlation,yes,yes,1,batch2
+29183288,IgE,OVA,Positive_Correlation,yes,yes,1,batch3
+29183288,Arg1,nitric oxide,Association,yes,yes,1,batch1
+20959502,antibiotic,pneumonia,Negative_Correlation,yes,yes,1,initial
+20959502,nafcillin,interstitial nephritis,Positive_Correlation,yes,yes,1,initial
+20959502,nafcillin,bacteremia,Positive_Correlation,yes,yes,1,initial
+20959502,methicillin,bacteremia,Association,yes,no,0,batch1
+20959502,daptomycin,interstitial nephritis,Negative_Correlation,yes,no,0,batch3
+20959502,acute renal failure,creatinine,Positive_Correlation,yes,yes,1,initial
+20959502,pneumonia,piperacillin/tazobactam,Negative_Correlation,yes,yes,1,initial
+20959502,pneumonia,levofloxacin,Negative_Correlation,yes,yes,1,batch1
+20959502,pneumonia,vancomycin,Negative_Correlation,yes,yes,1,batch1
+20959502,weakness,piperacillin/tazobactam,Negative_Correlation,yes,no,0,batch2
+20959502,weakness,levofloxacin,Negative_Correlation,yes,yes,1,initial
+20959502,weakness,vancomycin,Negative_Correlation,yes,no,0,batch1
+20959502,levofloxacin,piperacillin/tazobactam,Cotreatment,yes,no,0,batch2
+20959502,vancomycin,piperacillin/tazobactam,Cotreatment,yes,no,0,batch2
+20959502,vancomycin,levofloxacin,Cotreatment,yes,no,0,batch1
+20682662,CCR5,inflammation,Association,yes,yes,1,initial
+20682662,CCR5,autoimmune diseases,Positive_Correlation,yes,yes,1,initial
+23285048,Dll4,tumors,Association,yes,yes,1,initial
+27663860,Hydralazine,renal injury,Negative_Correlation,yes,yes,1,initial
+27663860,L-FABP,renal injury,Association,yes,yes,1,initial
+27663860,deoxycorticosterone acetate,L-FABP,Association,yes,no,0,batch1
+27663860,deoxycorticosterone acetate,hypertension,Positive_Correlation,yes,yes,1,initial
+27663860,renal injury,deoxycorticosterone acetate,Positive_Correlation,yes,yes,1,batch1
+27807193,thioglycollate,peritonitis,Positive_Correlation,yes,yes,1,batch1
+27807193,PTPN22,rheumatoid arthritis,Association,yes,yes,1,initial
+27807193,PTPN22,autoimmune disease,Association,yes,yes,1,batch1
+15069170,thiazide,NCCT,Positive_Correlation,yes,yes,1,initial
+15069170,NCCT,GS,Association,yes,yes,1,initial
+17397547,PAR,edema,Association,yes,yes,1,initial
+17397547,PAR1,edema,Association,yes,yes,1,batch1
+17397547,inflammatory,SP,Positive_Correlation,yes,yes,1,initial
+17397547,inflammatory,LPS,Positive_Correlation,yes,yes,1,initial
+23651211,Wnt,beta-catenin,Association,yes,yes,1,initial
+15991002,pentylenetetrazole,anxiety,Positive_Correlation,yes,yes,1,initial
+15991002,caffeine,anxiety,Positive_Correlation,yes,yes,1,batch1
+16565833,DOX,cardiac damage,Positive_Correlation,yes,yes,1,initial
+16565833,DOX,cardiotoxicity,Positive_Correlation,yes,yes,1,batch1
+16680561,cinacalcet,CYP2D6,Negative_Correlation,yes,yes,1,initial
+16867021,antipsychotic,catalepsy,Positive_Correlation,yes,yes,1,initial
+16867021,haloperidol,catalepsy,Positive_Correlation,yes,yes,1,initial
+16867021,amphetamine,hyperactivity,Positive_Correlation,yes,yes,1,initial
+17255138,AMI,COX-2 inhibitors,Positive_Correlation,yes,yes,1,batch3
+17297207,jaundice,quinine,Negative_Correlation,yes,no,0,batch2
+17297207,quinine,severe malaria,Negative_Correlation,yes,yes,1,initial
+17297207,quinine,arrhythmic,Positive_Correlation,yes,yes,1,initial
+17384765,Pb,Pb poisoning,Positive_Correlation,yes,yes,1,batch1
+17384765,succimer,Pb poisoning,Negative_Correlation,yes,yes,1,initial
+17608141,lipopolysaccharide,inflammatory,Association,yes,yes,1,initial
+17608141,methamphetamine,dopaminergic terminal damage,Positive_Correlation,yes,yes,1,batch1
+17608141,methamphetamine,neurotoxicity,Positive_Correlation,yes,yes,1,initial
+17608141,methamphetamine,dopamine,Association,yes,yes,1,initial
+17608141,methamphetamine,hyperthermia,Positive_Correlation,yes,yes,1,initial
+18162529,CIS,prolactin,Association,yes,yes,1,batch2
+18162529,SOCS-3,prolactin,Association,yes,yes,1,batch3
+18162529,SOCS-1,prolactin,Association,yes,yes,1,initial
+18162529,prolactin,STAT5,Positive_Correlation,yes,yes,1,initial
+18162529,estrogen,LH,Association,yes,yes,1,initial
+18162529,dopamine,Sulpiride,Negative_Correlation,yes,yes,1,initial
+18308784,NMDA receptor,MK801,Negative_Correlation,yes,yes,1,initial
+18308784,Rg1,morphine,Negative_Correlation,yes,yes,1,initial
+18308784,Rg1,learning impairment,Negative_Correlation,yes,yes,1,initial
+18308784,learning impairment,morphine,Positive_Correlation,yes,yes,1,initial
+18951540,levodopa,dyskinesias,Positive_Correlation,yes,yes,1,initial
+19759529,aripiprazole,catalepsy,Positive_Correlation,yes,no,0,batch2
+19759529,clozapine,catalepsy,Positive_Correlation,yes,no,0,batch2
+19759529,olanzapine,catalepsy,Positive_Correlation,yes,yes,1,batch2
+19759529,haloperidol,catalepsy,Positive_Correlation,yes,yes,1,initial
+19759529,schizophrenic,dopaminergic,Association,yes,yes,1,batch3
+19759529,hyperactivity,amphetamine,Positive_Correlation,yes,no,0,batch2
+19759529,NMDA Nr1,schizophrenic,Association,yes,yes,1,initial
+19914299,5-FU,Cancer,Negative_Correlation,yes,yes,1,initial
+19914299,memory deficits,5-FU,Positive_Correlation,yes,yes,1,batch1
+20195852,CM,cyanosis,Association,yes,no,0,batch2
+20195852,CM,CIN,Positive_Correlation,yes,yes,1,initial
+20195852,CIN,iopromide,Positive_Correlation,yes,yes,1,initial
+20195852,CIN,iohexol,Positive_Correlation,yes,yes,1,batch3
+20621845,CaCl(2),arterial injury,Positive_Correlation,yes,yes,1,batch3
+20621845,CaCl(2),TAA,Positive_Correlation,yes,yes,1,initial
+23872883,Captopril,angiotensin-converting enzyme,Negative_Correlation,yes,yes,1,batch1
+23872883,isoproterenol,superoxide dismutase,Negative_Correlation,yes,yes,1,batch1
+23872883,isoproterenol,lactate dehydrogenase,Positive_Correlation,yes,yes,1,batch1
+23872883,isoproterenol,creatine phosphokinase,Positive_Correlation,yes,yes,1,batch3
+23872883,isoproterenol,alanine transaminase,Positive_Correlation,yes,yes,1,initial
+23872883,isoproterenol,aspartate transaminase,Positive_Correlation,yes,yes,1,batch3
+23872883,isoproterenol,angiotensin-converting enzyme,Positive_Correlation,yes,no,0,batch3
+23872883,isoproterenol,glutathione,Negative_Correlation,yes,yes,1,batch1
+23872883,isoproterenol,nitric oxide,Positive_Correlation,yes,no,0,batch2
+23872883,isoproterenol,MDA,Positive_Correlation,yes,yes,1,batch1
+23872883,isoproterenol,fatty acid,Positive_Correlation,yes,yes,1,batch1
+23872883,isoproterenol,triglycerides,Positive_Correlation,yes,yes,1,batch1
+23872883,isoproterenol,cholesterol,Positive_Correlation,yes,yes,1,initial
+23872883,isoproterenol,cardiotoxicity,Positive_Correlation,yes,yes,1,batch1
+24333387,STZ,neurotoxicity,Positive_Correlation,yes,yes,1,batch1
+24438483,lipid emulsions,bupivacaine,Association,yes,yes,1,initial
+24438483,medialipid,bupivacaine,Negative_Correlation,yes,yes,1,batch2
+24438483,bupivacaine,cardiotoxic,Positive_Correlation,yes,yes,1,initial
+24438483,bupivacaine,cardiovascular depression,Positive_Correlation,yes,yes,1,initial
+25119790,maleate,nephropathy,Positive_Correlation,yes,yes,1,initial
+14510914,TSH,iodide,No_Relation,no,yes,0,batch1
+14510914,patient,COS-7,No_Relation,no,no,1,batch3
+14510914,patient,iodide,No_Relation,no,no,1,initial
+14510914,congenital hypothyroidism,hypothyroidism,No_Relation,no,no,1,batch1
+14510914,TSH,nodular goitre,No_Relation,no,no,1,initial
+14510914,iodide,nodular goitre,No_Relation,no,yes,0,batch2
+14510914,iodide,congenital hypothyroidism,No_Relation,no,yes,0,batch2
+14510914,TSH,congenital hypothyroidism,No_Relation,no,yes,0,batch3
+14510914,nodular goitre,hypothyroidism,No_Relation,no,no,1,batch2
+14510914,inability of the thyroid,COS-7,No_Relation,no,no,1,initial
+15096016,hyper- or dyskinetic,PD,No_Relation,no,yes,0,batch2
+15096016,bradykinesia,hyper- or dyskinetic,No_Relation,no,no,1,initial
+16152606,malignancies,HL,No_Relation,no,no,1,initial
+16152606,leukemia,NHL,No_Relation,no,no,1,initial
+16152606,NHL,HL,No_Relation,no,no,1,initial
+16152606,leukemia,HL,No_Relation,no,no,1,initial
+16152606,autosomal recessive disease,HL,No_Relation,no,no,1,batch1
+16152606,NHL,lymphoid malignancies,No_Relation,no,no,1,batch1
+16152606,lymphoid malignancies,malignancies,No_Relation,no,no,1,initial
+16277682,polyostotic disease,alkaline phosphatase,No_Relation,no,yes,0,batch2
+16277682,M404V,alkaline phosphatase,No_Relation,no,no,1,initial
+16277682,PDB,alkaline phosphatase,No_Relation,no,no,1,initial
+16277682,patient,SQSTM1,No_Relation,no,no,1,batch3
+1671881,272gly----stop,PAH deficiencies,No_Relation,no,yes,0,batch2
+1671881,PAH,autosomal recessive disease,No_Relation,no,yes,0,batch2
+1671881,273ser----phe,PKU,No_Relation,no,yes,0,batch2
+16867246,chlorpromazine,DRD2,No_Relation,no,yes,0,batch2
+16867246,patients,rs6277,No_Relation,no,no,1,initial
+16867246,DRD2,rs6275,No_Relation,no,no,1,batch1
+16867246,rs6275,schizophrenia,No_Relation,no,no,1,batch1
+16867246,chlorpromazine,rs6277,No_Relation,no,no,1,initial
+16867246,rs6277,schizophrenia,No_Relation,no,no,1,batch2
+16867246,EPS,schizophrenia,No_Relation,no,no,1,initial
+16867246,chlorpromazine,antipsychotic drugs,No_Relation,no,yes,0,batch2
+16867246,antipsychotic drugs,rs6277,No_Relation,no,no,1,batch2
+17549393,cleft palate,cleft lip,No_Relation,no,no,1,initial
+17549393,VWS,patients,No_Relation,no,no,1,batch1
+17549393,cleft lip,cleft palate,No_Relation,no,no,1,initial
+17549393,VWS,Smad,No_Relation,no,yes,0,batch2
+18046082,dilated glomerular capillaries,lipids,No_Relation,no,yes,0,batch2
+18046082,dilated glomerular capillaries,proteinuria,No_Relation,no,yes,0,batch2
+18046082,lipids,thrombus,No_Relation,no,yes,0,batch2
+18046082,thrombus,proteinuria,No_Relation,no,no,1,batch2
+21054465,hypertensive,hydroxyeicosatetrenoic acids,No_Relation,no,no,1,batch2
+21054465,hypertensive,CYP2C8,No_Relation,no,no,1,initial
+22711886,BCL-2,ERK,No_Relation,no,no,1,initial
+22711886,ERK,cellular inhibitors of apoptosis 1 and 2,No_Relation,no,yes,0,batch3
+22711886,small lymphocytic lymphoma,BCL-2,No_Relation,no,yes,0,batch2
+22711886,p100 NF-kappaB2,BCL-2,No_Relation,no,no,1,batch2
+24036311,Peg3,Nanog,No_Relation,no,no,1,batch2
+24036311,Fgf4,PAF1 complex,No_Relation,no,no,1,initial
+24036311,PAF1 complex,H3,No_Relation,no,yes,0,batch2
+24036311,Setd2,Elf5,No_Relation,no,yes,0,batch2
+24036311,Sox17,PAF1 complex,No_Relation,no,no,1,initial
+24036311,Elf5,Oct4,No_Relation,no,yes,0,batch3
+25080425,ventricular remodeling,betaine,No_Relation,no,yes,0,batch2
+25080425,rats,STAT3,No_Relation,no,no,1,initial
+25080425,myocardial damage,STAT3,No_Relation,no,yes,0,batch1
+25080425,Bcl-2,ventricular remodeling,No_Relation,no,yes,0,batch1
+27509880,MHC protein complex,MHC class II,No_Relation,no,no,1,batch2
+27509880,5-FU,SW48,No_Relation,no,no,1,batch1
+27509880,SW48,depsipeptide,No_Relation,no,no,1,batch2
+27840894,PHEX,XLH,No_Relation,no,yes,0,batch2
+27840894,XLH,FGF23,No_Relation,no,no,1,batch2
+7811247,long chain fatty acids,patients,No_Relation,no,no,1,initial
+7811247,patients,ALD,No_Relation,no,no,1,initial
+7811247,long chain fatty acids,ALD,No_Relation,no,no,1,batch3
+7811247,proline 484 by arginine,Addison,No_Relation,no,no,1,initial
+16838170,diabetes,rs2071197,No_Relation,no,no,1,initial
+16838170,rs1884614,women,No_Relation,no,yes,0,batch2
+20801540,insulin,aceruloplasminemia,No_Relation,no,no,1,initial
+20801540,retinal degeneration,iron overload,No_Relation,no,yes,0,batch2
+20801540,ferroxidase,diabetes,No_Relation,no,no,1,batch2
+20801540,retinal degeneration,ceruloplasmin,No_Relation,no,yes,0,batch2
+20801540,hepcidin,ferroxidase,No_Relation,no,no,1,batch1
+20801540,patients,deferasirox,No_Relation,no,no,1,batch3
+20801540,patients,iron overload,No_Relation,no,no,1,batch3
+20801540,aceruloplasminemia,hepcidin,No_Relation,no,no,1,batch2
+20801540,insulin,autosomal recessive neurodegenerative disease,No_Relation,no,no,1,initial
+20801540,patients,retinal degeneration,No_Relation,no,no,1,initial
+20801540,iron overload,diabetes,No_Relation,no,yes,0,batch2
+20801540,transferrin,autosomal recessive neurodegenerative disease,No_Relation,no,yes,0,batch2
+25550469,insulin,cholesterol,No_Relation,no,no,1,initial
+25550469,dyslipidemia,dihydrotestosterone,No_Relation,no,yes,0,batch2
+25550469,dihydrotestosterone,hepatoma,No_Relation,no,yes,0,batch2
+25550469,dyslipidemia,insulin,No_Relation,no,yes,0,batch2
+25550469,obesity,cholesterol,No_Relation,no,yes,0,batch2
+25550469,androgens,obesity,No_Relation,no,yes,0,batch2
+25550469,dyslipidemia,atherosclerosis,No_Relation,no,yes,0,batch1
+25550469,dihydrotestosterone,cholesterol,No_Relation,no,yes,0,batch1
+27090298,FASN,HMW,No_Relation,no,no,1,initial
+27090298,insulin,glucose,No_Relation,no,yes,0,batch2
+27090298,HbAc1,hypertension,No_Relation,no,no,1,initial
+27090298,C-peptide,insulin,No_Relation,no,yes,0,batch3
+27090298,lipids,HbAc1,No_Relation,no,no,1,batch1
+27090298,HbAc1,lipids,No_Relation,no,no,1,batch1
+27860185,hypoxia-inducible factor (HIF)-1a,sildenafil,No_Relation,no,no,1,batch2
+27860185,inflammation,CXCR4,No_Relation,no,yes,0,batch2
+15867855,asthma,TIM-3,No_Relation,no,no,1,batch1
+15867855,TIM-1,TIM-3,No_Relation,no,no,1,initial
+15867855,asthma,allergic diseases,No_Relation,no,yes,0,batch3
+15867855,patients,hepatitis A virus,No_Relation,no,no,1,initial
+26684240,MGA,APC,No_Relation,no,no,1,initial
+26684240,GEP-NETs,RB1,No_Relation,no,yes,0,batch2
+26684240,EP300,BRAF,No_Relation,no,no,1,initial
+26684240,CTNNB1,intestinal grade (G) 1 NET,No_Relation,no,no,1,batch1
+26684240,CTNNB1,EGFR,No_Relation,no,no,1,initial
+26684240,NET,CTNNB1,No_Relation,no,no,1,initial
+26684240,KRAS,patients,No_Relation,no,no,1,initial
+26684240,RB1,BCOR,No_Relation,no,no,1,initial
+26684240,G593S,V600E,No_Relation,no,no,1,initial
+26684240,pazopanib,BRAF,No_Relation,no,no,1,initial
+26684240,RASA1,pazopanib,No_Relation,no,no,1,initial
+26684240,CTNNB1,CNBD1,No_Relation,no,no,1,initial
+26684240,KRAS,intestinal grade (G) 1 NET,No_Relation,no,no,1,batch1
+26684240,EGFR,EP300,No_Relation,no,no,1,initial
+26684240,BRAF,CTNNB1,No_Relation,no,no,1,initial
+26684240,NET,CNBD1,No_Relation,no,no,1,initial
+26684240,pazopanib,patients,No_Relation,no,no,1,initial
+26684240,TBC1D12,SMARCB1,No_Relation,no,no,1,initial
+26684240,TBC1D12,TP53,No_Relation,no,no,1,initial
+26684240,VHL,PTEN,No_Relation,no,no,1,initial
+26684240,TBC1D12,BRAF,No_Relation,no,no,1,initial
+26684240,RASA1,intestinal grade (G) 1 NET,No_Relation,no,no,1,batch1
+26684240,SMARCB1,RB1,No_Relation,no,no,1,initial
+26684240,RB1,SPEN,No_Relation,no,no,1,initial
+26684240,BRAF,EGFR,No_Relation,no,no,1,initial
+26684240,intestinal grade (G) 1 NET,MLL3,No_Relation,no,yes,0,batch3
+26684240,MLL3,EP300,No_Relation,no,yes,0,batch2
+26684240,SMARCB1,intestinal grade (G) 1 NET,No_Relation,no,no,1,initial
+26684240,MLL3,VHL,No_Relation,no,no,1,initial
+26684240,CNBD1,ERBB3,No_Relation,no,no,1,initial
+26684240,EGFR,RB1,No_Relation,no,no,1,batch1
+26684240,VHL,RB1,No_Relation,no,no,1,batch2
+26684240,ERBB3,EP300,No_Relation,no,no,1,batch3
+26684240,MLL3,CNBD1,No_Relation,no,no,1,initial
+26684240,KRAS,BRAF,No_Relation,no,yes,0,batch2
+26684240,CNBD1,RASA1,No_Relation,no,no,1,initial
+26684240,BCOR,MLL3,No_Relation,no,no,1,initial
+26684240,CNBD1,CTNNB1,No_Relation,no,no,1,initial
+26684240,KRAS,MGA,No_Relation,no,no,1,batch1
+27707793,mouse,MYH3,No_Relation,no,no,1,batch3
+27707793,mouse,miR-501,No_Relation,no,no,1,batch1
+27707793,MYH3,Clcn5,No_Relation,no,no,1,initial
+27707793,mouse,adult myosin isoforms,No_Relation,no,no,1,initial
+27707793,gigaxonin,MYH3,No_Relation,no,yes,0,batch3
+27707793,MYH3,miR-501,No_Relation,no,yes,0,batch2
+21799811,677C>T,methionine,No_Relation,no,yes,0,batch2
+21799811,male infertility,methionine,No_Relation,no,yes,0,batch2
+21799811,folate,male infertility,No_Relation,no,no,1,initial
+15951966,HNPCC,patients,No_Relation,no,no,1,initial
+15951966,MSH2,patients,No_Relation,no,no,1,initial
+15951966,patients,HNPCC,No_Relation,no,no,1,initial
+17968299,periodontitis,aggressive periodontitis,No_Relation,no,no,1,batch3
+17968299,IL-10,patients,No_Relation,no,no,1,initial
+27866394,neurotransmitters,muscarinic and tachykinin receptors,No_Relation,no,yes,0,batch2
+27866394,IBS,rats,No_Relation,no,no,1,batch1
+27866394,VIP,CGRP,No_Relation,no,no,1,initial
+27866394,CGRP,muscarinic and tachykinin receptors,No_Relation,no,yes,0,batch1
+27866394,L-type Ca(2+) channels,Mr2,No_Relation,no,no,1,batch1
+27866394,L- and T-type Ca(2+) channels,CRF1r,No_Relation,no,no,1,batch3
+27866394,ChAT,Mr2,No_Relation,no,yes,0,batch1
+27866394,mucosal inflammation,Mr2,No_Relation,no,no,1,batch1
+27866394,rats,VIP,No_Relation,no,no,1,initial
+27866394,S100b,muscarinic and tachykinin receptors,No_Relation,no,no,1,batch2
+27866394,OB,L-type Ca(2+) channels,No_Relation,no,yes,0,batch2
+27866394,CRF1r,VIP,No_Relation,no,no,1,batch1
+27866394,IBS,S100b,No_Relation,no,yes,0,batch2
+27866394,mucosal inflammation,rats,No_Relation,no,no,1,initial
+27866394,NK1r,ChAT,No_Relation,no,no,1,initial
+27866394,neurotransmitters,CRF2r,No_Relation,no,no,1,initial
+27866394,mucosal inflammation,CRF2r,No_Relation,no,no,1,batch1
+29049388,podocin,tamoxifen,No_Relation,no,no,1,batch3
+29049388,renal failure,nephrotic syndrome,No_Relation,no,yes,0,batch2
+29049388,tubulointerstitial fibrosis,mouse,No_Relation,no,no,1,initial
+29049388,mouse,glomerulosclerosis,No_Relation,no,no,1,batch3
+29049388,miRNA-193a,tamoxifen,No_Relation,no,no,1,initial
+29049388,R138Q,nephrotic syndrome,No_Relation,no,yes,0,batch2
+29049388,R138Q,tamoxifen,No_Relation,no,no,1,initial
+29049388,human,podocin,No_Relation,no,yes,0,batch2
+29049388,miRNA-193a,glomerulosclerosis,No_Relation,no,no,1,batch3
+29049388,podocin,mouse,No_Relation,no,no,1,initial
+29049388,renal failure,miRNA21,No_Relation,no,no,1,batch2
+29049388,tamoxifen,proteinuria,No_Relation,no,no,1,batch2
+29049388,podocin,proteinuria,No_Relation,no,yes,0,batch2
+17345627,short ear syndrome,axial skeletal abnormalities,No_Relation,no,yes,0,batch2
+17345627,ectopic cartilage and bone formation,heterotopic ossification,No_Relation,no,no,1,batch2
+17345627,BMP,short ear syndrome,No_Relation,no,yes,0,batch1
+17345627,BMP4,heterotopic ossification,No_Relation,no,yes,0,batch2
+17345627,malformed external ears,mouse,No_Relation,no,no,1,initial
+17345627,ectopic cartilage and bone formation,axial skeletal abnormalities,No_Relation,no,yes,0,batch2
+17345627,human,BMP2,No_Relation,no,no,1,batch1
+17345627,BMP5,BMP4,No_Relation,no,no,1,initial
+17345627,heterotopic ossification,BMP4,No_Relation,no,yes,0,batch2
+17345627,BMP4,malformed external ears,No_Relation,no,yes,0,batch3
+17345627,ectopic cartilage and bone formation,malformed external ears,No_Relation,no,no,1,batch1
+17345627,malformed external ears,ectopic cartilage and bone formation,No_Relation,no,yes,0,batch1
+17345627,human,malformed external ears,No_Relation,no,no,1,batch1
+17345627,BMP,BMP4,No_Relation,no,no,1,batch3
+17345627,ectopic cartilage and bone formation,mouse,No_Relation,no,no,1,initial
+17345627,mouse,BMP,No_Relation,no,no,1,batch3
+20540798,stroke,carotid atherosclerosis,No_Relation,no,yes,0,batch1
+20540798,stroke,atherogenesis,No_Relation,no,yes,0,batch2
+21130517,EGFR,L858R,No_Relation,no,no,1,batch1
+21130517,patients,erlotinib,No_Relation,no,no,1,batch3
+21130517,lung cancer,patients,No_Relation,no,no,1,initial
+21130517,erlotinib,EGFR,No_Relation,no,yes,0,batch2
+21130517,L858R,patients,No_Relation,no,no,1,initial
+21130517,patients,L858R,No_Relation,no,no,1,initial
+21130517,patients,tumor,No_Relation,no,no,1,batch1
+21130517,erlotinib,patients,No_Relation,no,no,1,initial
+28393239,MMPs,pancreatic cancer,No_Relation,no,no,1,batch2
+28393239,Primary tumours,MMPs,No_Relation,no,yes,0,batch2
+28393239,metastases,psoriatic skin lesions,No_Relation,no,no,1,initial
+28393239,pancreatic cancer,Primary tumours,No_Relation,no,no,1,batch3
+16419642,essential hypertension,L809L,No_Relation,no,no,1,initial
+16419642,MR,patients,No_Relation,no,no,1,initial
+17943461,cardiac and skeletal myopathies,patients,No_Relation,no,no,1,batch1
+17943461,cardiac and skeletal myopathies,dystrophin,No_Relation,no,yes,0,batch1
+21042587,hypokalemia,hereditary disease,No_Relation,no,no,1,batch3
+21042587,hypokalemia,hypertension,No_Relation,no,no,1,batch3
+21042587,glucocorticoid,hypercortisolism,No_Relation,no,yes,0,batch2
+21042587,adrenal incidentalomas,GR,No_Relation,no,yes,0,batch2
+21042587,cortisol,bilateral adrenal hyperplasia,No_Relation,no,no,1,initial
+21042587,GR,tetrahydrocortisone,No_Relation,no,no,1,batch3
+21042587,patients,glucocorticoid,No_Relation,no,no,1,batch2
+21042587,cortisol resistance,11b-hydroxysteroid dehydrogenase type 2,No_Relation,no,yes,0,batch2
+16051693,fatty liver,PEMT,No_Relation,no,yes,0,batch2
+16051693,McArdle-RH7777,fatty liver,No_Relation,no,no,1,batch1
+16051693,phosphatidylcholine,PEMT,No_Relation,no,yes,0,batch2
+19880293,CD25,autoimmune disorders,No_Relation,no,yes,0,batch1
+19880293,dermatological disorder,CD4,No_Relation,no,no,1,initial
+21903317,pulmonary hypoplasia,uromodulin,No_Relation,no,no,1,initial
+21903317,anemia,death,No_Relation,no,no,1,batch1
+21903317,fetopathy,death,No_Relation,no,yes,0,batch2
+21903317,renal tubular dysgenesis,CKD,No_Relation,no,yes,0,batch2
+21903317,uromodulin,hepatocyte nuclear factor 1b,No_Relation,no,yes,0,batch1
+21903317,pulmonary hypoplasia,anemia,No_Relation,no,no,1,initial
+21903317,CKD,angiotensin receptor blocker,No_Relation,no,no,1,batch1
+21903317,uromodulin,death,No_Relation,no,no,1,batch1
+21903317,renal tubular dysgenesis,hyperuricemia,No_Relation,no,yes,0,batch2
+21903317,CKD,angiotensin-converting enzyme inhibitor,No_Relation,no,no,1,batch1
+21903317,anemia,kidney failure,No_Relation,no,yes,0,batch2
+21903317,death,hyperuricemia,No_Relation,no,no,1,initial
+27491646,gartanin,mangosteen,No_Relation,no,no,1,batch2
+27491646,PI3K,T98G,No_Relation,no,no,1,batch3
+27491646,Akt,p27Kip1,No_Relation,no,yes,0,batch3
+27491646,MMP-2/-9,3-MA,No_Relation,no,no,1,batch2
+27491646,cyclin D1,mTOR,No_Relation,no,no,1,initial
+27491646,human,cyclin D1,No_Relation,no,no,1,initial
+27491646,Beclin 1,cyclin-dependent kinase,No_Relation,no,no,1,batch3
+27491646,p27Kip1,MAPK,No_Relation,no,yes,0,batch3
+16611040,patients,cystic fibrosis transmembrane conductance regulator,No_Relation,no,no,1,initial
+16611040,inherited disorders,cystic fibrosis transmembrane conductance regulator,No_Relation,no,yes,0,batch2
+17033974,night blindness,cone dystrophy,No_Relation,no,yes,0,batch2
+17033974,human,c.2406C-->A,No_Relation,no,no,1,batch1
+17033974,Cacna2d4,night blindness,No_Relation,no,yes,0,batch2
+17033974,l-type calcium-channel auxiliary subunit of the alpha (2) delta type,CACNA2D4,No_Relation,no,yes,0,batch2
+24014394,mitochondrial encephalopathy,Rieske Fe-S protein,No_Relation,no,yes,0,batch2
+24014394,yeast,lactic acidosis,No_Relation,no,no,1,batch1
+24014394,lactic acidosis,yeast,No_Relation,no,no,1,batch1
+24014394,encephalopathy,D25N,No_Relation,no,yes,0,batch2
+15018851,UL97 protein kinase,ganciclovir,No_Relation,no,yes,0,batch2
+15018851,foscarnet,cidofovir,No_Relation,no,no,1,initial
+15018851,cytomegalovirus,non-Hodgkin's lymphoma,No_Relation,no,yes,0,batch1
+15018851,ganciclovir,patient,No_Relation,no,no,1,batch1
+15018851,cidofovir,foscarnet,No_Relation,no,no,1,batch3
+15018851,cytomegalovirus,UL97 protein kinase,No_Relation,no,yes,0,batch2
+15018851,cidofovir,non-Hodgkin's lymphoma,No_Relation,no,no,1,initial
+17671735,p.R127H,c.357C>T,No_Relation,no,no,1,initial
+17671735,c.798C>T,p.R32W,No_Relation,no,no,1,batch2
+17671735,p.R32W,GJB3,No_Relation,no,no,1,batch2
+17671735,patients,GJB2,No_Relation,no,no,1,batch1
+28518143,glucose,patients,No_Relation,no,no,1,initial
+28518143,ATP,rats,No_Relation,no,no,1,batch1
+28518143,beta-catenin,calcium,No_Relation,no,no,1,batch3
+28518143,DCM,N-cadherin,No_Relation,no,yes,0,batch2
+28518143,Diabetic cardiomyopathy,DCM,No_Relation,no,no,1,batch1
+28518143,beta-catenin,Fis1,No_Relation,no,no,1,batch3
+28518143,glucose,N-cadherin,No_Relation,no,yes,0,batch2
+28518143,ATP,Mfn1,No_Relation,no,no,1,initial
+28518143,glucose,CaSR,No_Relation,no,yes,0,batch2
+28518143,Fis1,DCM,No_Relation,no,no,1,initial
+17600377,cytochrome c,dementia,No_Relation,no,yes,0,batch2
+17600377,rats,amyloid beta peptide(1-42),No_Relation,no,no,1,initial
+17600377,glutamate,scopolamine,No_Relation,no,no,1,initial
+17600377,H2O2,scopolamine,No_Relation,no,no,1,initial
+20143913,mucopolysaccharidosis type VI,Patient,No_Relation,no,no,1,initial
+20143913,Patient,ARSB,No_Relation,no,no,1,batch3
+15579441,proteinuria,ED-1,No_Relation,no,no,1,batch1
+15579441,vascular endothelial growth factor,proteinuria,No_Relation,no,no,1,batch2
+15754732,multiple endocrine neoplasia,benign parathyroid lesion,No_Relation,no,yes,0,batch2
+15754732,MEN1,GAC/GAT,No_Relation,no,no,1,initial
+15754732,carcinomas,MEN1 and 2,No_Relation,no,no,1,initial
+15754732,MEN1 and 2,benign parathyroid lesion,No_Relation,no,yes,0,batch1
+18385794,microphthalmia,c.*557G>A,No_Relation,no,no,1,initial
+18385794,p. Asp291Asn,anophthalmia,No_Relation,no,no,1,initial
+18385794,rs11915160,CHX10,No_Relation,no,no,1,initial
+18385794,patient,p. Gln193Gln,No_Relation,no,no,1,initial
+18385794,microphthalmia,p. Gln193Gln,No_Relation,no,no,1,initial
+18385794,rs11915160,p. Pro184ArgfsX19,No_Relation,no,no,1,initial
+18385794,p. Pro184ArgfsX19,CHX10,No_Relation,no,no,1,batch1
+18385794,p. Pro184ArgfsX19,p. Gln193Gln,No_Relation,no,no,1,batch1
+18385794,p. Gln193Gln,c.*557G>A,No_Relation,no,no,1,batch1
+25589620,EGFR,ICAM1,No_Relation,no,no,1,batch2
+25589620,paraffin,MMP3,No_Relation,no,no,1,initial
+25589620,MMP3,IL10,No_Relation,no,no,1,batch3
+25589620,EGFR,ERCC1,No_Relation,no,no,1,initial
+25589620,IL10,RAD51,No_Relation,no,no,1,initial
+25589620,rs1870377,GSTP1,No_Relation,no,no,1,initial
+19300402,neuropathic pain,B1 and B2 receptors,No_Relation,no,yes,0,batch2
+19300402,streptozotocin,bradykinin,No_Relation,no,no,1,batch3
+19300402,NO synthase inhibitors,bradykinin,No_Relation,no,yes,0,batch2
+19300402,constitutive NO synthase,HOE 140,No_Relation,no,no,1,batch2
+19300402,hyperalgesia,rat,No_Relation,no,no,1,initial
+19300402,bradykinin receptor antagonists,neuropathic pain,No_Relation,no,yes,0,batch2
+19300402,diabetic and toxic neuropathy,streptozotocin,No_Relation,no,yes,0,batch2
+19300402,neuronal NO synthase,bradykinin,No_Relation,no,yes,0,batch1
+19300402,B1 and B2 receptors,NO synthase inhibitors,No_Relation,no,yes,0,batch2
+19300402,bradykinin,B1 and B2 receptors,No_Relation,no,yes,0,batch1
+19300402,des-Arg10HOE 140,hyperalgesia,No_Relation,no,yes,0,batch2
+19300402,rat,inducible NO synthase,No_Relation,no,no,1,initial
+19300402,constitutive NO synthase,des-Arg10HOE 140,No_Relation,no,no,1,initial
+19300402,des-Arg10HOE 140,NO synthase inhibitors,No_Relation,no,no,1,batch3
+19300402,inducible NO synthase,B1 and B2 receptors,No_Relation,no,yes,0,batch3
+19300402,vincristine,neuropathic pain,No_Relation,no,yes,0,batch2
+19300402,B1 and B2 receptors,neuropathic pain,No_Relation,no,yes,0,batch2
+19300402,streptozotocin,NO synthase inhibitors,No_Relation,no,yes,0,batch2
+19300402,constitutive NO synthase,bradykinin receptor antagonists,No_Relation,no,yes,0,batch3
+19300402,streptozotocin,inducible NO synthase,No_Relation,no,yes,0,batch2
+19300402,NO synthase inhibitors,bradykinin receptor antagonists,No_Relation,no,yes,0,batch2
+19300402,streptozotocin,diabetic and toxic neuropathy,No_Relation,no,yes,0,batch2
+24288432,TTF-1,RDS,No_Relation,no,no,1,batch1
+24288432,"MMP-1, -2, -9, and -12, -16",FGF-7,No_Relation,no,no,1,initial
+24288432,rs1966265,"FGF-2, -3, -4, -7, and -18",No_Relation,no,no,1,initial
+24288432,FGF-7,inflammation,No_Relation,no,no,1,initial
+24288432,"MMP-1, -2, -9, and -12, -16",inflammation,No_Relation,no,no,1,initial
+24288432,"FGF-2, -3, -4, -7, and -18",alveolar diseases,No_Relation,no,no,1,batch3
+24288432,TTF-1,MMP-12,No_Relation,no,no,1,batch2
+24288432,MMP-12,alveolar diseases,No_Relation,no,yes,0,batch2
+24288432,BPD,"MMP-1, -2, -9, and -12, -16",No_Relation,no,no,1,initial
+24288432,"FGF-2, -3, -4, -7, and -18",MMP-12,No_Relation,no,no,1,initial
+24288432,BPD,rs1966265,No_Relation,no,yes,0,batch2
+24288432,MMP-12,FGF receptor 4,No_Relation,no,no,1,initial
+24288432,inflammation,SIRPA,No_Relation,no,no,1,initial
+24288432,alveolar diseases,MMP-9,No_Relation,no,no,1,initial
+24288432,RDS,"FGF-2, -3, -4, -7, and -18",No_Relation,no,no,1,initial
+24288432,alveolar diseases,TTF-1,No_Relation,no,no,1,initial
+24288432,RDS,FGF receptors 2 and 4,No_Relation,no,no,1,initial
+24288432,MMP-9,"FGF-2, -3, -4, -7, and -18",No_Relation,no,no,1,batch3
+24288432,FGF-3,rs1966265,No_Relation,no,no,1,initial
+24288432,"FGF-2, -3, -4, -7, and -18","MMP-1, -2, -9, and -12, -16",No_Relation,no,no,1,batch1
+28259923,E-cadherin,N-cadherin,No_Relation,no,yes,0,batch2
+28259923,cancer,paraffin,No_Relation,no,no,1,batch1
+28259923,paraffin,cancer,No_Relation,no,no,1,batch1
+28259923,PLAGL2,SW480,No_Relation,no,no,1,batch3
+28259923,N-cadherin,Wnt,No_Relation,no,yes,0,batch1
+28259923,vimentin,SW480,No_Relation,no,no,1,initial
+28259923,SW480,rats,No_Relation,no,no,1,batch1
+28259923,cancer,metastasis,No_Relation,no,yes,0,batch3
+28259923,b-catenin,vimentin,No_Relation,no,yes,0,batch2
+28259923,cancer,b-catenin,No_Relation,no,yes,0,batch2
+28259923,rats,vimentin,No_Relation,no,no,1,initial
+16000134,Argatroban,congenital antithrombin deficiency,No_Relation,no,yes,0,batch2
+16000134,thrombin,SMV thrombosis,No_Relation,no,yes,0,batch2
+16000134,type I congenital antithrombin deficiency,woman,No_Relation,no,no,1,initial
+16000134,woman,antithrombin,No_Relation,no,yes,0,batch2
+16000134,antithrombin,congenital antithrombin deficiency,No_Relation,no,yes,0,batch2
+16000134,Argatroban,woman,No_Relation,no,no,1,initial
+16225977,psychosis,risperidone,No_Relation,no,yes,0,batch2
+16225977,antipsychotics,patient,No_Relation,no,no,1,initial
+16225977,olanzapine,antipsychotics,No_Relation,no,yes,0,batch2
+16225977,quetiapine,ziprasidone,No_Relation,no,no,1,initial
+16225977,clozapine,tic-like symptoms,No_Relation,no,yes,0,batch2
+16225977,amisulpride,antipsychotics,No_Relation,no,no,1,batch3
+16225977,ziprasidone,schizophrenic,No_Relation,no,yes,0,batch2
+16225977,psychosis,amisulpride,No_Relation,no,yes,0,batch2
+16225977,psychosis,antipsychotics,No_Relation,no,yes,0,batch2
+16225977,Tic disorders,patient,No_Relation,no,no,1,initial
+20859899,ACE,potassium,No_Relation,no,no,1,initial
+20859899,loss of consciousness,patients,No_Relation,no,no,1,initial
+20859899,potassium,aldosterone,No_Relation,no,yes,0,batch2
+20859899,myocardial infarction,potassium,No_Relation,no,no,1,initial
+15041272,VWF,VWD,No_Relation,no,yes,0,batch2
+15041272,bleeding,VIII,No_Relation,no,yes,0,batch2
+27729412,vitamin A,retinoids,No_Relation,no,no,1,batch2
+27729412,retinoids,adiponectin,No_Relation,no,no,1,initial
+27729412,retinoic acid receptor,cardiovascular diseases,No_Relation,no,no,1,batch2
+27729412,cardiovascular diseases,retinoic acid receptor,No_Relation,no,yes,0,batch2
+27729412,adiposity,ALDH1A1,No_Relation,no,yes,0,batch2
+27729412,retinoic acid receptor,ALDH1A1,No_Relation,no,yes,0,batch2
+27729412,mice,adiponectin,No_Relation,no,no,1,initial
+27729412,adiponectin,ALDH1A1,No_Relation,no,no,1,batch2
+29183288,mice,IL-5,No_Relation,no,no,1,batch1
+29183288,Clca3,IL-13,No_Relation,no,no,1,batch2
+29183288,asthma,IFNgamma,No_Relation,no,yes,0,batch3
+29183288,IL-4,arginine transporters,No_Relation,no,no,1,initial
+29183288,chemokines,IL-13,No_Relation,no,yes,0,batch3
+29183288,methacholine,IgE,No_Relation,no,no,1,initial
+29183288,IL-5,IL-4,No_Relation,no,no,1,batch3
+29183288,TNFalpha,IL-4,No_Relation,no,no,1,initial
+29183288,nitric oxide,IL-13,No_Relation,no,no,1,batch2
+29183288,IL-5,mice,No_Relation,no,no,1,initial
+29183288,arginine transporters,chemokines,No_Relation,no,no,1,batch2
+29183288,Arg1,Nos2,No_Relation,no,no,1,batch1
+29183288,IL-13,IgE,No_Relation,no,yes,0,batch2
+29183288,lung inflammation,Clca3,No_Relation,no,yes,0,batch2
+29183288,arginine transporters,Nos2,No_Relation,no,no,1,batch2
+29183288,Nos2,Clca3,No_Relation,no,yes,0,batch2
+29183288,arginine transporters,Muc5ac,No_Relation,no,no,1,batch2
+29183288,nitric oxide,Clca3,No_Relation,no,no,1,batch1
+29183288,IL-13,chemokines,No_Relation,no,yes,0,batch2
+29183288,arginine transporters,IL-10,No_Relation,no,no,1,initial
+29183288,IL-13,lung inflammation,No_Relation,no,yes,0,batch2
+29183288,IgE,lung inflammation,No_Relation,no,yes,0,batch2
+29183288,Nos2,TNFalpha,No_Relation,no,no,1,batch1
+20959502,oxacillin,levofloxacin,No_Relation,no,no,1,batch1
+20959502,S. aureus,meningitis,No_Relation,no,yes,0,batch2
+20959502,meningitis,patients,No_Relation,no,no,1,initial
+20959502,bacteremia,meningitis,No_Relation,no,yes,0,batch3
+20959502,cardiac arrest,S. aureus,No_Relation,no,yes,0,batch1
+20959502,methicillin,pneumonia,No_Relation,no,no,1,batch3
+20959502,piperacillin/tazobactam,cardiac arrest,No_Relation,no,yes,0,batch2
+20959502,bacteremia,daptomycin,No_Relation,no,yes,0,batch2
+20959502,pneumonia,oxacillin,No_Relation,no,yes,0,batch2
+20959502,meningitis,oxacillin,No_Relation,no,no,1,initial
+20959502,nafcillin,acute renal failure,No_Relation,no,yes,0,batch2
+20959502,Creatine kinase,methicillin,No_Relation,no,no,1,initial
+20959502,oxacillin,methicillin,No_Relation,no,no,1,batch1
+20959502,oxacillin,nafcillin,No_Relation,no,no,1,initial
+20959502,oxacillin,cardiac arrest,No_Relation,no,no,1,initial
+20959502,central nervous system (CNS) infection,interstitial nephritis,No_Relation,no,no,1,initial
+20959502,weakness,S. aureus,No_Relation,no,yes,0,batch2
+20959502,piperacillin/tazobactam,acute renal failure,No_Relation,no,yes,0,batch2
+20959502,daptomycin,methicillin,No_Relation,no,no,1,batch1
+20959502,methicillin,interstitial nephritis,No_Relation,no,yes,0,batch2
+20959502,death,S. aureus,No_Relation,no,yes,0,batch2
+20959502,methicillin,death,No_Relation,no,no,1,batch1
+20959502,weakness,acute renal failure,No_Relation,no,no,1,initial
+20959502,daptomycin,death,No_Relation,no,no,1,batch1
+20959502,methicillin,cardiac arrest,No_Relation,no,no,1,initial
+20959502,Coma,creatinine,No_Relation,no,no,1,initial
+20959502,antibiotic,S. aureus,No_Relation,no,yes,0,batch2
+20959502,death,oxacillin,No_Relation,no,yes,0,batch3
+20682662,RA,inflammation,No_Relation,no,yes,0,batch2
+20682662,LN,inflammation,No_Relation,no,no,1,initial
+20682662,patients,LN,No_Relation,no,no,1,batch1
+23285048,FGF1,VEGF-A,No_Relation,no,no,1,batch3
+23285048,VEGFR3,mice,No_Relation,no,no,1,initial
+27663860,deoxycorticosterone acetate,human,No_Relation,no,no,1,batch1
+27663860,human,deoxycorticosterone acetate,No_Relation,no,no,1,batch1
+27663860,angiotensin II type 1a receptor,hypertension,No_Relation,no,yes,0,batch1
+27663860,renal injury,hypertension,No_Relation,no,yes,0,batch2
+27663860,mice,renal injury,No_Relation,no,no,1,batch3
+27663860,Hydralazine,human,No_Relation,no,no,1,batch3
+27663860,angiotensin II type 1a receptor,mice,No_Relation,no,no,1,batch1
+27807193,arthritis,Lyn,No_Relation,no,yes,0,batch1
+27807193,fungal infections,acute and chronic inflammation,No_Relation,no,yes,0,batch1
+27807193,mice,peritonitis,No_Relation,no,no,1,initial
+27807193,peritonitis,Lyn,No_Relation,no,no,1,initial
+27807193,Syk,PTPN22,No_Relation,no,yes,0,batch1
+27807193,mice,PTPN22,No_Relation,no,no,1,initial
+15069170,Ala569Val,Arg642Cys,No_Relation,no,no,1,initial
+15069170,autosomal recessive disorder,Ala569Val,No_Relation,no,yes,0,batch2
+15069170,Arg642Cys,Ala569Val,No_Relation,no,no,1,initial
+15069170,Thr60Met,Leu849His,No_Relation,no,no,1,initial
+17397547,inflammatory,hspb1,No_Relation,no,yes,0,batch2
+17397547,plaur,nfkbia,No_Relation,no,yes,0,batch3
+17397547,PAR1,arf6,No_Relation,no,yes,0,batch2
+17397547,s100a10,pax1,No_Relation,no,no,1,initial
+17397547,nfkbia,cystitis,No_Relation,no,yes,0,batch2
+17397547,cdbpd,myo5a,No_Relation,no,no,1,initial
+17397547,marcksl1,nfkbia,No_Relation,no,no,1,batch3
+17397547,ptpn1,tnfaip2,No_Relation,no,no,1,batch3
+23651211,WISP2,human,No_Relation,no,no,1,initial
+23651211,STK17B,CAMK2N1,No_Relation,no,no,1,initial
+15991002,psychoactive drugs,mice,No_Relation,no,no,1,batch1
+15991002,nicotine,psychoactive drugs,No_Relation,no,yes,0,batch3
+15991002,anxiety,psychoactive drugs,No_Relation,no,yes,0,batch2
+16565833,cardiomyocyte damage,flavonoid,No_Relation,no,yes,0,batch2
+16565833,outpatient,anthracyclin,No_Relation,no,no,1,initial
+16565833,DOX,outpatient,No_Relation,no,no,1,batch1
+16565833,anthracyclin,monoHER,No_Relation,no,yes,0,batch2
+16680561,cinacalcet,headache,No_Relation,no,yes,0,batch2
+16680561,patients,CYP2D6,No_Relation,no,yes,0,batch2
+16867021,THP,antipsychotic,No_Relation,no,yes,0,batch2
+16867021,mice,THP,No_Relation,no,no,1,batch1
+16867021,mice,histamine H(3)-receptors,No_Relation,no,no,1,initial
+16867021,amphetamine,mice,No_Relation,no,no,1,initial
+16867021,histamine H(3)-receptors,catalepsy,No_Relation,no,yes,0,batch2
+17255138,rofecoxib,AMI,No_Relation,no,yes,0,batch3
+17255138,ibuprofen,naproxen,No_Relation,no,no,1,initial
+17297207,potassium,jaundice,No_Relation,no,no,1,batch1
+17297207,tinnitus,jaundice,No_Relation,no,no,1,initial
+17297207,Plasmodium falciparum,hypokalemia,No_Relation,no,yes,0,batch2
+17297207,loss of hearing,diarrhea,No_Relation,no,no,1,initial
+17297207,chill,potassium aspartate,No_Relation,no,no,1,batch2
+17297207,dextrose,chill,No_Relation,no,no,1,batch1
+17384765,cognitive and affective dysfunction,Pb,No_Relation,no,yes,0,batch1
+17384765,"impairments in learning, attention, inhibitory control, and arousal regulation","impairments in learning, attention, inhibitory control, and arousal regulation",No_Relation,no,no,1,batch1
+17384765,cognitive and affective dysfunction,succimer,No_Relation,no,yes,0,batch2
+17384765,"impairments in learning, attention, inhibitory control, and arousal regulation",succimer,No_Relation,no,yes,0,batch2
+17608141,dopamine,lipopolysaccharide,No_Relation,no,no,1,batch1
+17608141,lipopolysaccharide,neurotoxicity,No_Relation,no,yes,0,batch2
+17608141,dopaminergic terminal damage,neurotoxicity,No_Relation,no,no,1,batch1
+17608141,mice,"3,4-dihydroxyphenylacetic acid",No_Relation,no,no,1,initial
+17608141,methamphetamine,"3,4-dihydroxyphenylacetic acid",No_Relation,no,yes,0,batch2
+17608141,mice,hyperthermia,No_Relation,no,no,1,initial
+17608141,lipopolysaccharide,mice,No_Relation,no,no,1,initial
+17608141,methamphetamine,lipopolysaccharide,No_Relation,no,no,1,initial
+18162529,PRL-R,SOCS-3,No_Relation,no,yes,0,batch2
+18162529,CIS,estradiol,No_Relation,no,yes,0,batch2
+18162529,PRL-R,STAT5,No_Relation,no,yes,0,batch2
+18162529,ribonucleic acid,rats,No_Relation,no,no,1,initial
+18162529,ribonucleic acid,Sulpiride,No_Relation,no,no,1,initial
+18162529,estrogen,steroid,No_Relation,no,no,1,batch3
+18162529,CIS,hyperprolactinemia,No_Relation,no,yes,0,batch2
+18162529,rats,SOCS-3,No_Relation,no,no,1,batch3
+18162529,STAT5,steroid,No_Relation,no,yes,0,batch2
+18162529,estrogen,estradiol,No_Relation,no,no,1,batch1
+18162529,estradiol,prolactin,No_Relation,no,yes,0,batch2
+18162529,prolactin,rats,No_Relation,no,no,1,initial
+18308784,Panax ginseng,Rg1,No_Relation,no,yes,0,batch1
+18308784,NMDA receptor,learning impairment,No_Relation,no,yes,0,batch2
+18308784,NMDA receptor,Panax ginseng,No_Relation,no,yes,0,batch2
+18308784,MK801,rats,No_Relation,no,no,1,initial
+18308784,ginsenoside,morphine,No_Relation,no,yes,0,batch2
+18308784,Panax ginseng,MK801,No_Relation,no,yes,0,batch1
+18308784,learning impairment,MK801,No_Relation,no,yes,0,batch3
+18951540,dyskinesias,patient,No_Relation,no,no,1,initial
+18951540,dystonia,levodopa,No_Relation,no,yes,0,batch2
+19759529,aripiprazole,haloperidol,No_Relation,no,no,1,batch1
+19759529,amphetamine,DAT,No_Relation,no,yes,0,batch2
+19759529,dopaminergic,aripiprazole,No_Relation,no,yes,0,batch2
+19759529,DAT,glycine,No_Relation,no,no,1,initial
+19759529,clozapine,hyperactivity,No_Relation,no,no,1,batch2
+19759529,DAT,dopaminergic,No_Relation,no,no,1,initial
+19759529,glycine,catalepsy,No_Relation,no,no,1,initial
+19759529,NMDA Nr1,mice,No_Relation,no,no,1,batch3
+19759529,schizophrenic,SSR103800,No_Relation,no,yes,0,batch2
+19759529,SSR103800,hyperactivity,No_Relation,no,yes,0,batch2
+19759529,clozapine,mice,No_Relation,no,no,1,batch1
+19759529,haloperidol,clozapine,No_Relation,no,no,1,initial
+19759529,olanzapine,schizophrenic,No_Relation,no,yes,0,batch2
+19759529,haloperidol,mice,No_Relation,no,no,1,initial
+19914299,Cancer,Fluoxetine,No_Relation,no,yes,0,batch2
+19914299,SSRI,memory deficits,No_Relation,no,yes,0,batch1
+19914299,Cancer,memory deficits,No_Relation,no,yes,0,batch2
+19914299,rats,5-FU,No_Relation,no,no,1,initial
+20195852,iohexol,CM,No_Relation,no,no,1,batch1
+20195852,congenital heart diseases,cyanosis,No_Relation,no,yes,0,batch1
+20195852,CM,Loss of kidney function,No_Relation,no,yes,0,batch2
+20195852,renal injury,iopromide,No_Relation,no,no,1,batch2
+20195852,iopromide,CM,No_Relation,no,no,1,batch2
+20195852,cyanosis,K,No_Relation,no,no,1,initial
+20195852,CM,iopromide,No_Relation,no,no,1,initial
+20195852,iohexol,cyanosis,No_Relation,no,no,1,initial
+20621845,arterial injury,ADAM10,No_Relation,no,yes,0,batch2
+20621845,ADAM17,CaCl(2),No_Relation,no,no,1,batch1
+20621845,MMP-9,rats,No_Relation,no,no,1,batch1
+20621845,TIMP,ADAM10,No_Relation,no,yes,0,batch3
+23872883,Captopril,aspartate transaminase,No_Relation,no,no,1,initial
+23872883,CVDs,rats,No_Relation,no,no,1,initial
+23872883,fatty acid,alanine transaminase,No_Relation,no,no,1,initial
+23872883,creatine phosphokinase,glutathione,No_Relation,no,no,1,batch1
+23872883,S. virgaurea extract,MDA,No_Relation,no,yes,0,batch2
+23872883,nitric oxide,superoxide dismutase,No_Relation,no,no,1,initial
+23872883,glutathione,triglycerides,No_Relation,no,no,1,batch2
+23872883,CVDs,aspartate transaminase,No_Relation,no,no,1,batch1
+23872883,nitric oxide,alanine transaminase,No_Relation,no,no,1,initial
+23872883,aspartate transaminase,creatine phosphokinase,No_Relation,no,no,1,initial
+23872883,triglycerides,Captopril,No_Relation,no,no,1,batch2
+23872883,rats,glutathione,No_Relation,no,no,1,initial
+23872883,lactate dehydrogenase,glutathione,No_Relation,no,no,1,batch1
+23872883,cardiotoxicity,MDA,No_Relation,no,yes,0,batch2
+23872883,creatine phosphokinase,CVDs,No_Relation,no,no,1,initial
+23872883,Captopril,cholesterol,No_Relation,no,no,1,initial
+23872883,lactate dehydrogenase,superoxide dismutase,No_Relation,no,no,1,initial
+23872883,cardioprotective agent,Captopril,No_Relation,no,yes,0,batch2
+23872883,creatine phosphokinase,rats,No_Relation,no,no,1,initial
+23872883,cardioprotective agent,triglycerides,No_Relation,no,no,1,batch3
+23872883,triglycerides,rats,No_Relation,no,no,1,initial
+23872883,cholesterol,triglycerides,No_Relation,no,no,1,initial
+23872883,rats,triglycerides,No_Relation,no,no,1,initial
+23872883,aspartate transaminase,cholesterol,No_Relation,no,no,1,initial
+23872883,cardioprotective agent,nitric oxide,No_Relation,no,no,1,batch2
+23872883,aspartate transaminase,CVDs,No_Relation,no,no,1,batch1
+23872883,cardiotoxicity,lactate dehydrogenase,No_Relation,no,yes,0,batch2
+23872883,glutathione,cholesterol,No_Relation,no,no,1,initial
+24333387,GFAP,PSD-95,No_Relation,no,no,1,batch2
+24333387,CaMKIIa,excitotoxicity,No_Relation,no,yes,0,batch1
+24438483,lipid emulsions,medialipid,No_Relation,no,no,1,initial
+24438483,asystole,cardiotoxic,No_Relation,no,no,1,initial
+24438483,dysrhythmia,medialipid,No_Relation,no,no,1,initial
+24438483,cardiovascular depression,dysrhythmia,No_Relation,no,no,1,initial
+24438483,intralipid,ketamine,No_Relation,no,no,1,initial
+24438483,ketamine,asystole,No_Relation,no,no,1,initial
+24438483,intralipid,asystole,No_Relation,no,yes,0,batch2
+24438483,Rats,medialipid,No_Relation,no,no,1,batch1
+25119790,curcumin,malate,No_Relation,no,no,1,batch1
+25119790,sodium,glutamate,No_Relation,no,no,1,batch1

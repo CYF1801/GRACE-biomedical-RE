@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+dynamic_rag_cache/
+temp_workspace/
+results/
+*.npy
+*.log
