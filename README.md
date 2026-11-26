@@ -150,5 +150,3 @@ graph_pmids / graph_source_mode）与确定性抽样清单 `manifest_n3_seed42.j
 本项目按 **Apache License 2.0** 发布（见 [`LICENSE`](LICENSE)）；代码基于
 [LightRAG](https://github.com/HKUDS/LightRAG)（上游同为 Apache-2.0）二次开发。
 生物医学用途请自行评估。
-#   G R A C E - b i o m e d i c a l - R E  
- 
